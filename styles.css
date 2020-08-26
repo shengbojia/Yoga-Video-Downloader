@@ -1,0 +1,58 @@
+html, body {
+  background-color: #0b5e6e;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+#scan_button {
+  width: 100%;
+  height: 30px;
+  background: #F66C75;
+  color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+#scan_button:hover {
+  filter: brightness(95%);
+}
+
+#scan_button:focus {
+  outline: none;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
+.download-element {
+  line-height: 30px;
+  width: 100%;
+  height: 30px;
+  background: #BABABA;
+  color: #FFFFFF;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.download-element:hover {
+  filter: brightness(95%);
+}
+
+.download-element:focus {
+  outline: none;
+}

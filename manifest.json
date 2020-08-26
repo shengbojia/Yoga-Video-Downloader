@@ -1,0 +1,25 @@
+{
+    "author": "shengbojia@gmail.com",
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Video Downloader"
+    },
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "js": [
+                "main.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "name": "Video Downloader",
+    "version": "1.0",
+    "description": "Download videos hosted by DishuYoga",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab"
+    ]
+}
